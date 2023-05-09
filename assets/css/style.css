@@ -1263,7 +1263,7 @@ address {
    * POPULAR
    */
 
-  .popular-list { grid-template-columns: repeat(3, 1fr); }
+  .popular-list { grid-template-columns: repeat(2, 1fr); }
 
 
 
