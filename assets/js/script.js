@@ -44,3 +44,26 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+  distance: '60px',
+  duration: 2800,
+  // reset: true,
+})
+
+sr.reveal(`h1, .hero-title, .hero-text,.btn, .btn-primary, .btn-secondary,
+.section-subtitle, h2, .section-title, .section-text, .package-card, .gallery-item, .footer-brand, .footer-contact, .footer-form, .social-list`,{
+    origin: 'top',
+    interval: 100,
+})
+
+sr.reveal(`.popular-list, .wrapper, .helpline-box`,{
+    origin: 'left',
+})
+
+sr.reveal(` `,{
+    origin: 'right',
+    interval: 100,
+})
