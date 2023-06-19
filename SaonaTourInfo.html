@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saona Tour</title>
+    <link rel="stylesheet" href="./assets/Tourinfo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5d95011f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav id="navBar" class="navbar-white">
+        <img src="./assets/images/logo-red.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="#">Tour Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="tour-details">
+        <div class="tour-title">
+            <h1>Saona Tour</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span style="font-weight: 600;">4,3 / 5 </span>
+                    <span style="font-weight: 600; color: #0071eb;">254 Reviews</span>
+                </div>
+                <div>
+                    <p style="color: #63687a; font-weight: 600;"> Location: <span  style="font-weight: 600; color: #0071eb;">Cotubanama National Park, La Romana, Dominican Republic</span></p>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- <div class="gallery">
+            <div class="gallery-img-1"><img src="./assets/images/SAONA.jpg" alt=""></div>
+            <div><img src="./assets/images/SAONA01.jpg" alt=""></div>
+            <div><img src="./assets/images/SAONA02.jpg" alt=""></div>
+            <div><img src="./assets/images/SAONA03.jpg" alt=""></div>
+            <div><img src="./assets/images/SAONA04.jpg" alt=""></div>
+        </div> -->
+
+
+        <div class="image-grid">
+            <button class="photo-collage__show-all">Ver las 7 fotos</button>
+            <img class="image-grid-col-2 image-grid-row-2" src="https://cdn.getyourguide.com/img/tour/5e1d362a966f3.jpeg/145.jpg" alt="architecture">
+            <img src="https://cdn.getyourguide.com/img/tour/5ebff9b217879.jpeg/145.jpg" alt="architecture">
+            <img src="https://cdn.getyourguide.com/img/tour/a4aae70460f0850e.jpeg/145.jpg" alt="architecture">
+            <img src="https://cdn.getyourguide.com/img/tour/09fe98486a8652ca.jpeg/145.jpg" alt="architecture">
+            <img src="https://cdn.getyourguide.com/img/tour/60f4e856aa0c2.jpeg/145.jpg" alt="architecture">
+            
+        </div>
+        
+
+        <div class="small-details">
+            <h2>Discover Saona Island, a hidden gem of paradise.</h2>
+            <p> 2 Guest &nbsp; &nbsp; 2 Snorkels &nbsp;&nbsp; 1 Boat </p>
+            <h4> $ 100 / Person</h4>
+        </div>
+
+        <hr class="line">
+
+        <form action="" class="check-form">
+
+            <div>
+                <label for="">Check-in</label>
+                <input type="text" placeholder="Add date">
+            </div>
+
+            <div>
+                <label for="">Check-out</label>
+                <input type="text" placeholder="Add date">
+            </div>
+
+            <div class="guest-field">
+                <label for="">Guest</label>
+                <input type="text" placeholder="2 Guest">
+            </div>
+
+
+            <button type="submit"> Check Avaliability</button>
+        </form>
+
+
+        <ul class="details-list">
+
+            <div class="small-details">
+                <h2>General information</h2>
+            </div>
+
+            <li><i class="fa-regular fa-calendar"></i> Free cancellation
+                <span>Cancel with up to 24 hours in advance and receive a full refund.</span>
+            </li>
+
+            <li><i class="fa-solid fa-ticket"></i> Book now, pay later
+                <span>Flexible plans, Reserve your spot immediately without being charged today.</span>
+            </li>
+
+            <li><i class="fa-solid fa-clock-rotate-left"></i> Duration: 8 hours
+                <span>Check availability for start times.</span>
+            </li>
+
+            <li><i class="fa-solid fa-street-view"></i> Guide
+                <span>English, Spanish, French, Portuguese</span>
+            </li>
+
+            <li><i class="fa-solid fa-person-walking-arrow-right"></i> Skip the line entry
+                <span></span>
+            </li>
+
+            <li><i class="fa-solid fa-bus"></i> Pick-up service included
+                <span>Pick-up is usually done at the hotel lobby. However, if you are staying at Royalton, Meliá, or Catalonia resorts, you will need to wait at the main entrance of the resort complex. Look for the activity provider's bus. If you are staying at an apartment or Airbnb, please contact the activity provider to be informed about the nearest meeting point. You must call or text the day before to confirm the exact pick-up time.</span>
+            </li>
+
+            <li><i class="fa-regular fa-note-sticky"></i> Read our Disclaimer Form
+                <span>It is mandatory that you comprehend the details stated in our Disclaimer form prior to engaging in any activity. You can access this form by clicking the button below.
+                </span>
+                
+            </li>
+
+        </ul>
+
+        <div class="container1">
+            <img class="qr-image" src="https://th.bing.com/th/id/OIP.-9N4K3Syg-OgbET8dgDwqAHaHa?pid=ImgDet&rs=1" alt="">
+            <div class="card app-file-list">
+              <div class="app-file-icon">
+                <i class="fas fa-file-pdf" style="color: red; font-size: 60px"></i>
+              </div>
+              <div class="description">
+                <div>
+                  <div>D-Form.pdf</div>
+                  <div style="color: #AFAFAF">1.2mb</div>
+                </div>
+                <div>
+                  <i class="fa fa-download"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        
+
+
+        <hr class="line">
+
+        
+
+        <p class="tour-description">
+            Make the most of the tour by taking advantage of hotel pickup and return. During the excursion, you will visit a natural swimming pool, indulge in snacks, and enjoy the guidance of a knowledgeable guide. Experience the thrill of riding a speedboat and a catamaran while exploring the beautiful Saona Island. <br><br>
+
+            Once on the island, you'll have a range of activities to choose from. Take a refreshing swim in the turquoise waters, visit the open bar for some drinks, relax on beach hammocks, stroll along the shoreline, or engage in a game of volleyball. <br><br>
+
+            A delicious Dominican lunch awaits, featuring a variety of dishes such as chicken, pork, rice, beans, salad, and fruit. If you opt for the VIP option, you can even savor lobster and premium beverages. Take your time to fully immerse yourself in the island's beauty, participating in all the activities offered. <br><br>
+
+            Overall, this tour provides a comprehensive experience with hotel transportation, natural swimming, exhilarating boat rides, a buffet-style lunch, and various leisure options on Saona Island.
+
+        </p>
+
+        <hr class="line">
+
+        <div class="container">
+            
+        </div>
+
+        <div class="small-details">
+            <h2>Tour itinerary</h2>
+        </div>
+
+        
+
+
+        <div class="timeline">
+            <ul>
+              <li>
+                <span  style="color: #FFF;">07:00 AM</span>
+                <div class="content">
+                  <h3>Pick-up from your hotel to the meeting point.</h3>
+                  <p>
+                    Get ready to start your exciting tour to Saona Island.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span  style="color: #FFF;">08:30 AM</span>
+                <div class="content">
+                  <h3>Departure by bus from the starting point towards Bayahibe.</h3>
+                  <p>
+                    Sit back, relax, and enjoy the scenic drive as you head to your next destination.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span  style="color: #FFF;">10:30 AM</span>
+                <div class="content">
+                  <h3>Arrival in Bayahibe, near La Romana, the departure point for the catamaran to Saona Island.</h3>
+                  <p>
+                    Prepare to embark on a memorable adventure.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span  style="color: #FFF;">10:45 AM</span>
+                <div class="content">
+                  <h3>Board the catamaran and enjoy local beverages while being entertained by the onboard animation group with lively Dominican music.</h3>
+                  <p>
+                    Feel the vibrant atmosphere as you set sail.
+                  </p>
+                </div>
+              </li>
+
+
+              <li>
+                <span  style="color: #FFF;">11:45 AM </span>
+                <div class="content">
+                  <h3>Arrive at Saona Island and begin exploring its unique landscape of beaches and jungle. Lunch preparations are underway.</h3>
+                  <p>
+                    Take in the breathtaking views and immerse yourself in the natural beauty surrounding you.
+                  </p>
+                </div>
+              </li>
+
+
+
+              <li>
+                <span  style="color: #FFF;">13:00 PM</span>
+                <div class="content">
+                  <h3> Indulge in a delicious buffet featuring the finest dishes of Dominicancuisine.</h3>
+                  <p>
+                    Treat your taste buds to a variety of flavorful and authentic culinary delights.
+                  </p>
+                </div>
+              </li>
+
+
+
+              <li>
+                <span  style="color: #FFF;">14:30 PM</span>
+                <div class="content">
+                  <h3>Join our entertainment team and learn to dance to traditional songs of the Dominican Republic.</h3>
+                  <p>
+                    Immerse yourself in the vibrant culture and let loose with some lively dancing.
+                  </p>
+                </div>
+              </li>
+
+
+
+
+              <li>
+                <span  style="color: #FFF;">15:30 PM</span>
+                <div class="content">
+                  <h3> Return by boat to Bayahibe, with a stop at the natural pool to admire and interact with starfish.</h3>
+                  <p>
+                    Take a refreshing dip in the crystal-clear waters and get up close with the marine life.
+                  </p>
+                </div>
+              </li>
+
+
+
+              <li>
+                <span  style="color: #FFF;">17:00 PM</span>
+                <div class="content">
+                  <h3>Transfer back to your hotel, allowing you to relax and unwind after an amazing day.</h3>
+                  <p>
+                    Board the transportation provided and enjoy a comfortable journey back to your hotel. 
+                  </p>
+                </div>
+              </li>
+
+
+
+              <li>
+                <span style="color: #FFF;">18:00 PM</span>
+                <div class="content">
+                  <h3>Conclusion of the excursion.</h3>
+                  <p>
+                    Reflect on the wonderful moments and adventures you had during the tour.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        <hr class="line">
+        
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1yS4E73gGqTgMrP2clyKdk7OgtV-aYNU&ehbc=2E312F" width="640" height="480"></iframe>
+            <b>Cotubanama National Park, La Romana, Dominican Republic</b>
+            <p>Behold, a veritable utopia on Earth, an indelible destination that shall forever linger in your heart.</p>
+        </div>
+        <hr class="line">
+        
+        <div class="organizer">
+            <img src="./assets/images/LMT-Logo.jpg" alt="">
+            <div>
+                <h2>Organized by La Mantarray Tours Operator</h2>
+                <p>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </span> &nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; Response rate: 100% &nbsp; &nbsp; Response time: 30 Min
+                </p>
+            </div>
+        </div>
+
+        <a href="" class="contact-organizer"></a>
+
+
+    </div>
+
+
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
